@@ -1,0 +1,15 @@
+MENGAKTIFKAN EMAIL LUPA PIN (gratis, sekali saja)
+Aplikasi memakai layanan EmailJS agar bisa mengirim email tanpa server sendiri.
+1. Daftar di emailjs.com (gratis, sekitar 200 email/bulan).
+2. Menu Email Services > Add New Service > pilih Gmail > hubungkan email Anda. Catat SERVICE ID.
+3. Menu Email Templates > Create New Template. Isi:
+   - To Email : {{to_email}}
+   - Subject  : {{subject}}
+   - Content  : {{message}}
+   Simpan, lalu catat TEMPLATE ID.
+4. Menu Account > General: catat PUBLIC KEY.
+5. Di HabitFinance: Profil > Layanan email > isi 3 data tadi. Email uji akan terkirim.
+6. Pastikan juga email pribadi sudah diisi di Profil > Ubah.
+Cara kerja Lupa PIN: masukkan email terdaftar > kode 6 angka dikirim ke email > masukkan kode + PIN baru.
+Aplikasi juga mengirim peringatan email jika PIN salah 3 kali dan saat PIN diubah.
+Catatan: fitur ini hanya berjalan di versi yang sudah di-hosting/terpasang dengan koneksi internet.

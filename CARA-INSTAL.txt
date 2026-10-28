@@ -1,0 +1,9 @@
+CARA MEMASANG HABITFINANCE DI HP
+1. Unggah SELURUH isi folder ini ke hosting HTTPS gratis, misalnya:
+   - Netlify Drop (app.netlify.com/drop): seret folder, langsung dapat alamat web.
+   - atau GitHub Pages / Cloudflare Pages.
+2. Buka alamat web tersebut di Chrome (Android) atau Safari (iPhone).
+3. Android: menu titik tiga > "Instal aplikasi" / "Tambahkan ke layar utama".
+   iPhone: tombol Bagikan > "Tambah ke Layar Utama".
+4. Aplikasi akan muncul dengan ikon kucing HabitFinance dan bisa dipakai offline.
+Catatan: data tersimpan di HP itu sendiri (tidak ikut berpindah ke perangkat lain).
